@@ -43,14 +43,16 @@ const Button = (props) => {
         </a>
       );
     } else {
-      <Link
-        to={props.href}
-        className={className.join(" ")}
-        style={props.style}
-        onClick={onClick}
-      >
-        {props.children}
-      </Link>;
+      return (
+        <Link
+          to={props.href}
+          className={className.join(" ")}
+          style={props.style}
+          onClick={onClick}
+        >
+          {props.children}
+        </Link>
+      );
     }
   }
 

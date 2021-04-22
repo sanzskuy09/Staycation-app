@@ -28,4 +28,5 @@ test("Should render <Link> tag", () => {
       <Button href="" type="link"></Button>
     </Router>
   );
+  expect(container.querySelector("a")).toBeInTheDocument();
 });
