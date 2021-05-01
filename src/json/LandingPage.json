@@ -1,0 +1,59 @@
+{
+    "hero": {
+        "travelers": 80456,
+        "treasure": 567,
+        "beautyCities": 1565
+    },
+    "mostPicked": [
+        {
+            "_id": "asdfghe34234a1",
+            "name": "Hotel de Luna",
+            "type": "Apartement",
+            "imageUrl": "/images/img-mostpicked-1.jpg",
+            "country": "Indonesia",
+            "city": "Depok",
+            "price": "80",
+            "unit": "night"
+        },
+        {
+            "_id": "asdfghe34234a2",
+            "name": "Hotel de Luna",
+            "type": "Apartement",
+            "imageUrl": "/images/img-mostpicked-2.jpg",
+            "country": "Indonesia",
+            "city": "Depok",
+            "price": "80",
+            "unit": "night"
+        },
+        {
+            "_id": "asdfghe34234a3",
+            "name": "Hotel de Luna",
+            "type": "Apartement",
+            "imageUrl": "/images/img-mostpicked-3.jpg",
+            "country": "Indonesia",
+            "city": "Depok",
+            "price": "80",
+            "unit": "night"
+        },
+        {
+            "_id": "asdfghe34234a4",
+            "name": "Hotel de Luna",
+            "type": "Apartement",
+            "imageUrl": "/images/img-mostpicked-4.jpg",
+            "country": "Indonesia",
+            "city": "Depok",
+            "price": "80",
+            "unit": "night"
+        },
+        {
+            "_id": "asdfghe34234a5",
+            "name": "Hotel de Luna",
+            "type": "Apartement",
+            "imageUrl": "/images/img-mostpicked-5.jpg",
+            "country": "Indonesia",
+            "city": "Depok",
+            "price": "80",
+            "unit": "night"
+        }
+    ]
+}
