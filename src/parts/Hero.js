@@ -57,10 +57,10 @@ const Hero = (props) => {
                 width="36"
                 height="36"
                 src={IconTreasure}
-                alt={`${props.data.travelers} Travelers`}
+                alt={`${props.data.treasures} Travelers`}
               />
               <h6 className="mt-3">
-                {props.data.treasure.toLocaleString()}{" "}
+                {props.data.treasures.toLocaleString()}{" "}
                 <span className="text-gray-500 font-weight-light">
                   Treasure
                 </span>
@@ -71,10 +71,10 @@ const Hero = (props) => {
                 width="36"
                 height="36"
                 src={IconCities}
-                alt={`${props.data.travelers} Travelers`}
+                alt={`${props.data.cities} Travelers`}
               />
               <h6 className="mt-3">
-                {props.data.beautyCities.toLocaleString()}{" "}
+                {props.data.cities.toLocaleString()}{" "}
                 <span className="text-gray-500 font-weight-light">Cities</span>
               </h6>
             </div>

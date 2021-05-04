@@ -2,11 +2,7 @@ import Button from "elements/Button";
 
 const MostPicked = (props) => {
   return (
-    <section
-      className="container"
-      ref={props.refMostPicked}
-      style={{ height: 1500 }}
-    >
+    <section className="container" ref={props.refMostPicked}>
       <h4 className="mb-3 font-weight-bold">Most Picked</h4>
       <div className="container-grid">
         {props.data.map((item, index) => {
