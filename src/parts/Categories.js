@@ -41,7 +41,7 @@ const Categories = ({ data }) => {
                         href={`/properties/${item._id}`}
                         className="stretched-link d-block text-gray-800"
                       >
-                        <h5 className="54">{item.name}</h5>
+                        <h5 className="h4 font-weight-bold">{item.name}</h5>
                       </Button>
                       <span className="text-gray-500">
                         {item.city}, {item.country}
